@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+    color: white;
+}
+.navbar{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+}
+.navbar h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin-left: 192px;
+}
+.navbar .nav-links{
+    display: flex;
+    align-items: center;
+    margin-right: 242px;
+}
+.navbar .nav-links ul{
+    display: flex;
+}
+.navbar .nav-links ul li{
+    margin: 0 30px;
+}
+.icone{
+    height: 19px;
+    width: 28px
+}
+.lien{
+
+}
+.titre button {
+    top: 62%;
+    left: 60%;
+    border: none;
+    background: orange;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    font-size: 10px;
+    transition: 0.4s;
+    margin-left: 40px;
+    margin: 20px;
+    font-size: 20px;
+  }
+  .itre button {
+    top: 62%;
+    left: 60%;
+    border: none;
+    background: orange;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    
+    font-size: 25px;
+    transition: 0.4s;
+  }
+  
+.nav-links button{
+    border: 2px;
+}
+.place-icone{
+    display: flex;
+}
+.img img{
+    width: 100%;
+}
+.test-img{
+    padding-left: 230px;
+    margin-top: 20px;
+}
+.cont-img{
+    position: absolute;
+    top: 50%;
+    height: 350px;
+    width: 850px;
+    
+}
+.cont-img h2, p{
+    color: white;
+}
+.cont-img h2{
+    font-size: 30px;
+}
+.cont-img p{
+    font-size: 20px;
+}
+.carré{
+    height: 250px;
+    width: 600px;
+    border: 1px solid red;
+}
+.contenu{
+    display: flex;
+   flex: 25px;
+}
+
